@@ -390,7 +390,109 @@ h1 span{
     color:white;
     font-size: 1.2rem;
 }
+body {
+    margin: 0;
+    padding: 0;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: rgb(43, 42, 42);
+    color: white;
+  }
+  header {
+    text-align: center;
+    display: grid;
+    clear: both;
+  }
+  .container {
+    display: flex;
+    margin-left: 20%;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+  }
+  .image {
+    width: 45%;
+    height: auto;
+  }
+  .book {
+    display: flex;
+    align-items: center;
+    padding: 3px 20px 3px 20px;
+    border: 1px solid #ccc; 
+    margin: auto;
+    width:auto;
+    height: auto;
+  }
+  .book1 {
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 33%;
+  margin-top: 20px;
+  background-color: rgb(43, 42, 42);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+}
+.book2 {
+  display: flex;
+  width: 30%;
+  margin-left: 33%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  background-color: rgb(43, 42, 42);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+}
+.book3 {
+  display: flex;
+  width: 30%;
+  margin-left: 33%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  background-color: rgb(43, 42, 42);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+}
+.book4 {
+  display: flex;
+  width: 30%;
+  margin-left: 33%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  background-color: rgb(43, 42, 42);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+  
+}
+form{
+  background-color: rgb(43, 42, 42);
+  display: block;
+}
 
+button{
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto; 
+    font-size: 18px;
+    justify-content: space-between;
+  margin-top: 20px;
+  background-color: rgb(43, 42, 42);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+  }
 
 
 
