@@ -215,6 +215,14 @@ body{
     margin: 5px;
 
 }
+.box h3{
+    color: black;
+    font-family: cursive
+}
+.box h4{
+    color: black;
+    font-family: cursive;
+}
 #image img:hover{
     transform: scale(1.1);
     transition-delay: 0.25s;
@@ -297,7 +305,7 @@ h1 span{
 /* contact section */
 #contact{
     padding: 25px 0 25px 0;
-    /* background-color: rgb(20, 20, 20); */
+    
 
 }
 #contact_row{
@@ -316,11 +324,11 @@ h1 span{
 }
 .contact_col p a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .contact_col p,h3{
     font-weight: bold;
-    color: black   ;
+    color: white   ;
     margin: 10px;
 }
 .contact_col form h2{
@@ -329,7 +337,7 @@ h1 span{
     text-align: center;
 }
 #social a{
-    color:black;
+    color:white;
     margin: 3px;
 
 }
@@ -363,7 +371,7 @@ h1 span{
 }
 
 #section_contact{
-    color:black;
+    color:white;
     text-align: center;
     font-family: cursive;
 
@@ -405,14 +413,14 @@ body {
     display: grid;
     clear: both;
   }
-  .container {
+  .container_1 {
     display: flex;
     margin-left: 20%;
     flex-direction: row;
     justify-content: space-around;
     width: 60%;
   }
-  .image {
+  .image_1 {
     width: 45%;
     height: auto;
   }
@@ -492,6 +500,8 @@ button{
   border-radius: 20px;
   box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
     cursor: pointer;
+    color: white;
+    
   }
 
 
