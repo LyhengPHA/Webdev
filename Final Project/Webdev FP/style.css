@@ -165,7 +165,7 @@ body{
     background-color: rgb(20, 20, 20);
     
 }
-#section{
+#section_menu{
     padding: 25px 0 25px 0;
     text-align: center;
     font-size: 2.5rem;
@@ -274,11 +274,21 @@ body{
     border-radius: 50%;
     object-fit: fill;
 }
+.about_col{
+    color: white;
+}
+
 .about_col p{
     text-align: justify;
     font-weight: bold;
     color: white;
 
+}
+#section_about{
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: cursive;
 }
 h1 span{
     font-size: 1.5em;
@@ -323,9 +333,7 @@ h1 span{
     margin: 3px;
 
 }
-#section h1{
-    color: black;
-}
+
 .contact_col form{
     display: flex;
     flex-direction: column;
@@ -353,9 +361,42 @@ h1 span{
     border: 1px solid white;
 
 }
-#section,h1{
-    color: rgb(125, 125, 233);
+
+#section_contact{
+    color:black;
+    text-align: center;
+    font-family: cursive;
+
 }
+#footer{
+    background-color: rgb(20, 20, 20);
+    padding: 21px;
+    position: relative;
+}
+#footer h5{
+    text-align: center;
+    color: white;
+}
+#footer h5 a{
+    color: white;
+    text-decoration: none;
+}
+#top{
+    position: absolute;
+    bottom: 13px;
+    right: 13px;
+}
+#top a{
+    color:white;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
 @media screen and(max-width: 768px){
     #mobile_menu{
         display:block;
